@@ -34,10 +34,7 @@ const bio = () => {
                         problem solving, AI/ML, and web development.
                     </p>
                     <div>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-green-500 hover:text-green-500 hover:bg-black hover:border-green-500 text-white border border-white font-extrabold mt-3">
-                            Hire Me
-                        </button>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-green-500  hover:text-green-500 hover:bg-black hover:border-green-500 text-white border border-white font-extrabold mt-3">
+                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-black  hover:text-slate-300 hover:bg-black hover:white hover:border-slate-300 text-green-500 border border-green-500 font-extrabold mt-3">
                             Download Resume
                         </button>
                     </div>
