@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from 'react'
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
@@ -34,9 +35,11 @@ const bio = () => {
                         problem solving, AI/ML, and web development.
                     </p>
                     <div>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-black  hover:text-slate-300 hover:bg-black hover:border-slate-300 text-green-500 border border-green-500 font-extrabold mt-3">
-                            Download Resume
-                        </button>
+                        <Link href="https://drive.google.com/file/d/1gOvXp04LHC0Yy7jzJxX8N0HyhsmPCAlI/view?usp=sharing">
+                            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-black  hover:text-slate-300 hover:bg-black hover:border-slate-300 text-green-500 border border-green-500 font-extrabold mt-3">
+                                Resume
+                            </button>
+                        </Link>
                     </div>
                 </motion.div>
                 <motion.div
