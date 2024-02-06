@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
 
-const bio = () => {
+const Bio = () => {
     return (
         <section>
             <div className='grid grid-cols-1 sm:grid-col-12'>
@@ -35,7 +35,7 @@ const bio = () => {
                         problem solving, AI/ML, and web development.
                     </p>
                     <div>
-                        <Link href="https://drive.google.com/file/d/1gOvXp04LHC0Yy7jzJxX8N0HyhsmPCAlI/view?usp=sharing">
+                        <Link href="https://drive.google.com/file/d/1gOvXp04LHC0Yy7jzJxX8N0HyhsmPCAlI/view?usp=sharing" target="_blank">
                             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-black  hover:text-slate-300 hover:bg-black hover:border-slate-300 text-green-500 border border-green-500 font-extrabold mt-3">
                                 Resume
                             </button>
@@ -64,4 +64,4 @@ const bio = () => {
 
 };
 
-export default bio
+export default Bio;

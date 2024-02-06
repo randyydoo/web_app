@@ -5,25 +5,21 @@ import NavHref from "./NavHref";
 
 const navHref = [
     {
-        title:"About",
-        path:"#about",
-    },
-    {
         title:"Projects",
         path:"#projects"
     },
     {
-        title:"Contact",
-        path:"#contact",
+        title:"Github",
+        path:"https://github.com/randyydoo",
     },
     {
         title:"Linkedin",
-        path:"#linkedin",
+        path:"https://linkedin.com/in/randyydoo",
     },
     {
-        title:"Github",
-        path:"#github",
-    },
+        title:"Contact",
+        path:"#contact",
+    }
 ];
 
 
