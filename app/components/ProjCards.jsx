@@ -8,11 +8,11 @@ const ProjCards = ({ imgURL, title, desc, gitURL, hrefURL }) => {
     return (
         <div>
             <div className="rounded-b-xl mt-2 bg-black py-6 -px-4">
-                <h5 className="text-green-500 text-xl font-semibold mb-2">{title}</h5>
-                <p className="text-white-400">{desc}</p>
+                <h5 className="text-green-500 text-3xl font-semibold mb-2">{title}</h5>
+                <p className="text-white-400 text-1.5xl font-semibold">{desc}</p>
             </div>
             <div
-                className=" h-52 md:h-72 rounded-t-xl relative group"
+                className=" h-80 md:h-82 rounded-t-xl relative group"
                 style={{ background: `url(${imgURL})`, backgroundSize: "cover" }}>
                 <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500">
                     <Link href={gitURL} target="_blank"
