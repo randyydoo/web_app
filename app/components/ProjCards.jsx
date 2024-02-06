@@ -7,9 +7,9 @@ import React from "react";
 const ProjCards = ({ imgURL, title, desc, gitURL, hrefURL }) => {
     return (
         <div>
-            <div className="text-green-500 rounded-b-xl mt-2 bg-black py-6 -px-4">
-                <h5 className="text-xl font-semibold mb-2">{title}</h5>
-                <p className="text-slate-200">{desc}</p>
+            <div className="rounded-b-xl mt-2 bg-black py-6 -px-4">
+                <h5 className="text-green-500 text-xl font-semibold mb-2">{title}</h5>
+                <p className="text-white-400">{desc}</p>
             </div>
             <div
                 className=" h-52 md:h-72 rounded-t-xl relative group"

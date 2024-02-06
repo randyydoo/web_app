@@ -15,7 +15,9 @@ const Bio = () => {
                     transition={{ duration: 0.7 }}
                     className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
                 >
-                    <h1 className="text-green-500 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                    <h1 className="text-green-500 mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+                        </span>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
@@ -29,7 +31,7 @@ const Bio = () => {
                             repeat={Infinity}
                         />
                     </h1>
-                    <p className="text-white-400 text-lg mb-6 lg:text-xl">
+                    <p className="text-white-400 text-base sm:text-lg mb-6 lg:text-xl">
                         I am currently a junior at California State University,
                         Fullerton with intrests in algorithmic
                         problem solving, AI/ML, and web development.
@@ -38,6 +40,16 @@ const Bio = () => {
                         <Link href="https://drive.google.com/file/d/1gOvXp04LHC0Yy7jzJxX8N0HyhsmPCAlI/view?usp=sharing" target="_blank">
                             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-black  hover:text-slate-300 hover:bg-black hover:border-slate-300 text-green-500 border border-green-500 font-extrabold mt-3">
                                 Resume
+                            </button>
+                        </Link>
+                        <Link href="https://github.com/randyydoo" target="_blank">
+                            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-black  hover:text-slate-300 hover:bg-black hover:border-slate-300 text-green-500 border border-green-500 font-extrabold mt-3">
+                                Github
+                            </button>
+                        </Link>
+                        <Link href="https://linkedin.com/in/randyydoo" target="_blank">
+                            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-black  hover:text-slate-300 hover:bg-black hover:border-slate-300 text-green-500 border border-green-500 font-extrabold mt-3">
+                                LinkedIn
                             </button>
                         </Link>
                     </div>
