@@ -23,7 +23,7 @@ const Bio = () => {
                                 // Same substring at the start will only be typed out once, initially
                                 "Hello World, I'm Randy Do",
                                 1000,
-                                "I love problem solving and learning about differnt ambiguous algorithms",
+                                "I love problem solving and learning about different ambiguous algorithms",
                                 1000,
                                 "Check out some of my details below!",
                                 1000
